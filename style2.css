@@ -281,6 +281,14 @@ button.btn_form {
 }
 
 div#textForm {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 85px;
+}
+
+
+.stat_inpu {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -320,11 +328,15 @@ select#paesi {
 .brend p {
     text-align: center;
     margin-top: 110px;
+    font-size: 1.2em;
 }
 
 .img_spons {
     margin-top: 60px;
     text-align: center;
+    display:flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 .brend {
@@ -335,6 +347,20 @@ select#paesi {
 svg.sponsor {
     width: 160px;
     height: 40px;
+}
+
+svg.sponsor.decarhlon {
+    width: 119px;
+}
+
+svg.sponsor.p\&g {
+    fill: #fff;
+    width: 50px;
+}
+
+svg.sponsor.ligaA {
+
+    width: 115px;
 }
 
 /* fine sezione */
